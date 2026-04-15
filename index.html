@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>App de Subastas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Subastas Online</h1>
+
+    <form id="formSubasta">
+        <input type="text" id="producto" placeholder="Nombre del producto" required>
+        <input type="number" id="precio" placeholder="Precio inicial" required>
+        <input type="date" id="fecha" required>
+        <button type="submit">Crear Subasta</button>
+    </form>
+
+    <div id="listaSubastas"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
